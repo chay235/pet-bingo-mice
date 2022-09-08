@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PlayGame.unity
     guid: 2faac711219c473498b7156f7fabc720
+  - enabled: 1
+    path: Assets/Level1.unity
+    guid: 4007541fac3e38547a49638c5eb0a42a
   m_configObjects: {}
