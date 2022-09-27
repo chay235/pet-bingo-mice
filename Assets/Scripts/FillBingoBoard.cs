@@ -17,7 +17,7 @@ public class FillBingoBoard : MonoBehaviour
 
     void Awake()
     {
- 
+
     }
 
     private void OnEnable()
@@ -36,12 +36,12 @@ public class FillBingoBoard : MonoBehaviour
         for (int i = 0; i < 25; i++)
         {
             myboard[i].text = problem.answerslist[i].ToString();
-        } 
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

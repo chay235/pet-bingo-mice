@@ -16,7 +16,7 @@ public class Problem : MonoBehaviour
 
     private void OnEnable()
     {
-        
+
     }
 
     // Start is called before the first frame update
@@ -25,7 +25,7 @@ public class Problem : MonoBehaviour
         string dstr = " ";
         foreach (int x in dividendlist)
         {
-            dstr += x + " "; 
+            dstr += x + " ";
         }
 
         Debug.Log(dstr);
@@ -33,7 +33,7 @@ public class Problem : MonoBehaviour
         string astr = " ";
         foreach (int y in answerslist)
         {
-            astr += y + " "; 
+            astr += y + " ";
         }
 
         Debug.Log(astr);
@@ -42,7 +42,7 @@ public class Problem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void populate()
@@ -50,13 +50,13 @@ public class Problem : MonoBehaviour
         int div;
 
         int i = 0;
-        while(i < 25)
+        while (i < 25)
         {
             div = UnityEngine.Random.Range(0, 10);
             if (div % divisor == 0)
             {
                 dividendlist.Insert(i, div);
-                answerslist.Insert(i, (div/divisor));
+                answerslist.Insert(i, (div / divisor));
                 i++;
             }
         }
